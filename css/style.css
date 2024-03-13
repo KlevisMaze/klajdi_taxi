@@ -954,3 +954,27 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+.offer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.offer-item {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.offer-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.offer-item p {
+  margin-top: 10px;
+}

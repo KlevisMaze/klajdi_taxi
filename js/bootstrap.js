@@ -4434,6 +4434,33 @@
   exports.Tooltip = Tooltip;
 
   Object.defineProperty(exports, '__esModule', { value: true });
+  const offers = [
+    { image: 'images/komuna-teg.jpeg', description: 'Offer 1 description' },
+    { image: 'images/offer-general.jpeg', description: 'Offer 2 description' },
+    { image: 'images/taxi-24h.jpg', description: 'Offer 3 description' },
+    { image: 'images/tirane-durres.jpeg', description: 'Offer 4 description' },
+    { image: 'images/tirane-elbasan.jpeg', description: 'Offer 5 description' },
+    { image: 'images/tirane-rinas-night.jpeg', description: 'Offer 5 description' },
+    { image: 'images/tirane-rinas.jpeg', description: 'Offer 5 description' }
+];
+
+const offerSection = document.getElementById('offer-section');
+
+offers.forEach((offer, index) => {
+    const offerItem = document.createElement('div');
+    offerItem.classList.add('offer-item');
+
+    const image = document.createElement('img');
+    image.src = offer.image;
+    offerItem.appendChild(image);
+
+    const description = document.createElement('p');
+    description.textContent = offer.description;
+    offerItem.appendChild(description);
+
+    offerSection.appendChild(offerItem);
+});
+
 
 }));
 //# sourceMappingURL=bootstrap.js.map
