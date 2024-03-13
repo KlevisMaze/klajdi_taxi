@@ -27,6 +27,17 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+}
+</style>
 </head>
 
 <body>
@@ -409,6 +420,13 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto">
+          <div class="photo-gallery">
+            <img src="images/komuna-teg.jpeg" alt="Photo 1">
+            <img src="images/offer-general.jpeg" alt="Photo 2">
+            <img src="images/tirane-durres.jpeg" alt="Photo 3">
+            <img src="images/tirane-elbasan.jpeg" alt="Photo 4">
+            <img src="images/tirane-rinas-night.jpeg" alt="Photo 5">
+        </div>
           <div class="client_container">
             <div class="heading_container">
               <h2>
