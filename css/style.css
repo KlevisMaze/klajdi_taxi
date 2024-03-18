@@ -5,8 +5,8 @@ body {
 }
 
 .layout_padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .layout_padding2 {
@@ -26,7 +26,7 @@ body {
 }
 
 .layout_padding-bottom {
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 .heading_container {
